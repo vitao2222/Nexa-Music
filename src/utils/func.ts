@@ -2,7 +2,7 @@ import gradient from "gradient-string";
 import backup from "../src/index";
 import boxen from "boxen";
 import { rl, translations } from "../index";
-import chalk from "chalk"; 
+import chalk from "chalk";
 import { Client } from "discord.js-selfbot-v13";
 export function choiceinit(client: Client) {
   let clearall = () => {
@@ -35,7 +35,14 @@ export function choiceinit(client: Client) {
           creatorname();
           console.log(
             gradient(["red", "purple"])(
-              "Link: https://discord.gg/infinite-community-1014921352500756500"
+              `
+      ###########           ################      
+     ###############     ####################     
+     ###-       #############            -###     
+     ###-          #######               -###     
+     ###-       #############            -###     
+     ###############     ####################     
+      #########-           -################`
             )
           );
           awaitenter(client);
@@ -84,7 +91,7 @@ export function creatorname() {
 
 export function menutext(client: Client) {
   creatorname();
-  const goodbyegudog = langat !== "en" ? gradient(["#2180db", "#75a1cb", "#78a5d3"])(["[0] Nos despedimos do Gudog com carinho, Adeus gudog\n","[0] Em homenagem ao gudog, Descanse em paz\n","[0] Em memória do Gudog, um administrador que nos deixou. Adeus, amigo\n"][Math.floor(Math.random() * 3)]) : null;
+  const goodbyegudog = langat !== "en" ? gradient(["#2180db", "#75a1cb", "#78a5d3"])(["[0] Nos despedimos do Gudog com carinho, Adeus gudog\n", "[0] Em homenagem ao gudog, Descanse em paz\n", "[0] Em memória do Gudog, um administrador que nos deixou. Adeus, amigo\n"][Math.floor(Math.random() * 3)]) : null;
   console.log((goodbyegudog ? goodbyegudog : '') + gradient(["#ff4500", "#ffa500", "#ff6347"])(t("menuText")));
   choiceinit(client);
 }
@@ -96,17 +103,17 @@ export function infouser(client: Client) {
   console.log(
     gradient(["#ff4500", "#ffa500", "#ff6347"])(
       t(`Nome da conta: ${client.user.username}\nNome global da conta: ${client.user.globalName
-      }\nAvatar ${client.user.avatarURL({
-        format: "png",
-        dynamic: true,
-        size: 1024,
-      })}\nBanner: ${client.user.bannerURL({
-        format: "png",
-        dynamic: true,
-      })}\nID: ${client.user.id}\nData de criação da conta: ${client.user.createdAt
-      }\nGuildas: ${client.guilds.cache.size} \nNitro?: ${client.user.nitroType
-      }\nEmail: ${client.user.emailAddress}\nCelular: ${client.user.phoneNumber
-      }\nIdioma: ${client.settings.locale}\nTema: ${client.settings.theme}\nModo desenvolvedor: ${client.settings.developerMode}\nAfk Timeout: ${client.settings.afkTimeout}\nDM Scan Level: ${client.settings.DMScanLevel}\nModo compacto: ${client.settings.compactMode}\nPreview Link: ${client.settings.previewLink}`)
+        }\nAvatar ${client.user.avatarURL({
+          format: "png",
+          dynamic: true,
+          size: 1024,
+        })}\nBanner: ${client.user.bannerURL({
+          format: "png",
+          dynamic: true,
+        })}\nID: ${client.user.id}\nData de criação da conta: ${client.user.createdAt
+        }\nGuildas: ${client.guilds.cache.size} \nNitro?: ${client.user.nitroType
+        }\nEmail: ${client.user.emailAddress}\nCelular: ${client.user.phoneNumber
+        }\nIdioma: ${client.settings.locale}\nTema: ${client.settings.theme}\nModo desenvolvedor: ${client.settings.developerMode}\nAfk Timeout: ${client.settings.afkTimeout}\nDM Scan Level: ${client.settings.DMScanLevel}\nModo compacto: ${client.settings.compactMode}\nPreview Link: ${client.settings.previewLink}`)
     )
   );
   awaitenter(client);
@@ -258,7 +265,7 @@ export async function Cloner(
       errors++;
       rl.close();
     }
-    
+
   };
 
   rl.question(gradient(["#5bb409", "#6ed60e", "#e8fad8"])(t('ServerID')), async (guildId: string) => {
@@ -441,7 +448,7 @@ export async function configop(client: Client, functionName: string) {
       if (choice === "1") {
         configOptions.maxMessagesPerChannel = parseInt(
           await espop(
-            gradient(["purple", "pink"])(t('cloningmessage'))),10);
+            gradient(["purple", "pink"])(t('cloningmessage'))), 10);
         configOptions.jsonSave = await yop(
           gradient(["purple", "pink"])(
             t("savejsoninput")
