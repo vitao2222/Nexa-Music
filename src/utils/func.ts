@@ -167,7 +167,7 @@ export async function Cloner(
           'Infinite Community Cloner',
           {
             icon:
-              'https://cdn.discordapp.com/attachments/1014927587954393098/1145100637281992784/infinite_logo.png',
+              'https://cdn.discordapp.com/icons/1014921352500756500/d2ed4735e5e40808124696fe97bc4c9d.png?size=1024',
           }
         );
 
