@@ -1,6 +1,6 @@
 {
   "name": "nexa-music-bot",
-  "description": "A pro music bot for discord using riffy and musicard.",
+  "description": "discord music bot lavalink v4 riffy.",
   "version": "1.0.4",
   "main": "src/index.js",
   "scripts": {
