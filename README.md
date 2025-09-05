@@ -1,5 +1,5 @@
 <p align="center"> 
-  <a href="https://discord.gg/fbu64BmPFD" target="_blank"> <img src="https://discordapp.com/api/guilds/1377627031981785139/widget.png?style=banner2"/> </a>
+  <a href="https://discord.gg/fbu64BmPFD" target="_blank"> <img src="https://cdn.discordapp.com/attachments/1299420966761267200/1398993806505803898/3902093.png?ex=68bb7543&is=68ba23c3&hm=129dbb077f968d9c2ceffe2dc33ba829f9ddab2fb49c40fc1c1539319d4aa656"/> </a>
 </p>
 
 ### `📢` Main Features
