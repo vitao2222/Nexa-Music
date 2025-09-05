@@ -1,6 +1,6 @@
 # Nexa-Music
 A simple yet powerful Discord music bot using the Lavalink client (Riffy) and Discord.js v14.
-\n
+
 📢 Main Features
 ☑️ Use Riffy
 ☑️ Supports Lavalink v4 only!
