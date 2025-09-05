@@ -1,6 +1,6 @@
 ### `🔰` Information
 
-- Developed By **koddy**
+- Developed By **KoDdy & Razi**
 - Project By **Infinity**
 - Support: **[Infinity](https://discord.gg/fbu64BmPFD)**
 
