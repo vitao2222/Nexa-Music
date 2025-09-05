@@ -6,7 +6,7 @@ module.exports = (client) => {
 
 /**
  * Project: Nexa Music
- * Author: KoDdy
+ * Author: KoDdy, Razi
  * Company: Infinity
  * This code is the property of Infinity and may not be reproduced or
  * modified without permission. For more information, contact us at
