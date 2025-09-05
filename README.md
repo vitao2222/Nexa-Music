@@ -1,8 +1,6 @@
 <p align="center"> 
-  <a href="https://discord.gg/fbu64BmPFD" target="_blank"> <img src="https://discordapp.com/api/guilds/1056011738950156359/widget.png?style=banner2"/> </a>
+  <a href="https://discord.gg/fbu64BmPFD" target="_blank"> <img src="https://discordapp.com/api/guilds/1377627031981785139/widget.png?style=banner2"/> </a>
 </p>
-
-[![Version][version-shield]](version-url) [![MIT License][license-shield]][license-url] [![Contributors][contributors-shield]][contributors-url] [![Stargazers][stars-shield]][stars-url] [![Forks][forks-shield]][forks-url] [![Watchers][watchers-shield]][watchers-url] [![Issues][issues-shield]][issues-url]
 
 ### `📢` Main Features
 
