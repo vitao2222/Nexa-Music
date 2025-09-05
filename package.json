@@ -1,0 +1,23 @@
+{
+  "name": "nexa-music-bot",
+  "description": "A pro music bot for discord using riffy and musicard.",
+  "version": "1.0.4",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "riffy": "^1.0.7"
+  },
+  "keywords": [
+    "riffy",
+    "music-bot",
+    "discord-music-bot",
+    "riffy-music-bot",
+    "discord-pro-handler"
+  ],
+  "author": "KoDdy",
+  "license": "MIT"
+}
