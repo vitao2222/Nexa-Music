@@ -44,3 +44,9 @@ git clone https://github.com/koddyvx/Nexa-Music.git
 ```
 npm install
 ```
+
+`3.` Bot starting
+
+```
+node .
+```
