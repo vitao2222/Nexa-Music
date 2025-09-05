@@ -15,7 +15,7 @@ module.exports = (client) => {
                 if (typeof pull === 'function') {
                     pull(client);
                     eventCount++;
-                    //console.log(`[EVENTS] Loaded event: ${file.replace('.js', '')}`);
+                    
                 } else {
                     console.log(`[WANING] Event ${file} does not export a function.`);
                 }
