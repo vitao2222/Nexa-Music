@@ -1,21 +1,14 @@
 module.exports = {
-    name: 'stop',
-    description: 'Stop the music and clears the queue',
+    name: 'leave',
+    description: 'leave the bot from your voice channel',
     inVc: true,
     sameVc: true,
     player: true,
     run: async (client, interaction) => {
         const player = client.riffy.players.get(interaction.guildId);
+        player.destroy();
 
-        if (!player.queue.size && !player.queue.current) {
-            return interaction.reply({ content: '❌ | There is nothing playing right now.', ephemeral: true });
-        }
-
-        player.queue.clear();
-
-        player.stop();
-
-        return interaction.reply(`⏹️ | Stopped the music and cleared the queue.`);
+        return interaction.reply(`Leave from the voice channel.`);
     },
 };
 
