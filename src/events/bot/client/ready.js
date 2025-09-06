@@ -1,7 +1,7 @@
-const { ActivityType } = require("discord.js");
+const { ActivityType, Events } = require("discord.js");
 
 module.exports = (client) => {
-client.on("ready", async () => {
+client.on(Events.ClientReady, async () => {
     client.riffy.init(client.user.id);
     console.log(`[INFO] Logged in as ${client.user.tag}`);
 
